@@ -30,7 +30,7 @@ class Footer extends Component{
 									{
 										menu === 2
 										? <span className={styles["active"]}>新闻</span>
-										: <span>新闻</span>
+										: <Link to="/news"><span>新闻</span></Link>
 									}
 								</li>
 								<li>
